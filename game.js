@@ -49,10 +49,13 @@ $(document).ready(function() {
 
 		$('.value').text(computerGuess);
 
-
+     // This time, our click event applies to every single crystal on the page. 
+    // We then add the crystalValue to the user's "counter" which is a global variable.
+    // Every click, from every crystal adds to the global counter.
 		$('.crystal-image').on('click', function(){
 		    counter = counter + parseInt($(this).data('num'));
-		   
+       
+        // All of the same game win-lose logic applies. So the rest remains unchanged.
 		    $('#yourScore').text(counter);
 
 		    if (counter == computerGuess){
