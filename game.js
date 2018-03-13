@@ -31,7 +31,7 @@ $(document).ready(function() {
 			imgCrystal.attr('data-num', numbers[i]);
 			imgCrystal.attr('src', crystals[i]);
 			imgCrystal.attr('alt', 'crystals');
-			imgCrystal.addClass('crystal-image')
+			imgCrystal.addClass('crystal-image');
 			$('#crystals').append(imgCrystal);
 		}
 	}
