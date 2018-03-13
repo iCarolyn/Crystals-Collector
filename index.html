@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector Game by Carolyn Rojsutivat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+<div class="row">
+<div class="col-lg">
+<h1>Crystal Collectors</h1>       
+<h3>Click on a crystal to guess a number!</h3>  
+</div>
+<div class="col-12">   
+    <h3><div id="status" class="alert alert-primary" role="alert"></div></h3>
+</div>
+</div>
+<div class="row">
+    <div class="col-12" id="guessingNumber">
+			<h2>Number to Guess: <span class="value"></span></h2> 	
+</div>
+</div>
+<div class="row">
+<div class="col-sm" id="scoreboard">
+    <h3>Wins: <span id="win"></span></h3>
+    <h3>Losses: <span id="loss"></span> </h3>
+		<h2 id="yts">Your Total Score is: <span id="yourScore">0</span></h2>
+    </div>
+    <div class="col-sm" id="crystals">
+        </div>
+        </div>
+</div>
+    <!-- JAVASCRIPT  -->
+    <!-- ========================================= -->
+    <script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>

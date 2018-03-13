@@ -1,0 +1,41 @@
+.crystal-image {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  color: #435757;
+  background: radial-gradient(#fff, #dac4cd);
+  font: 1.4em/1 'Noto Sans', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.value {
+  font-weight: bolder;
+}
+
+.yourScore {
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 62px;
+}
